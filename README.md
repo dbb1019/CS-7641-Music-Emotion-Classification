@@ -132,16 +132,6 @@ The best score for supervised models:
 
 In conclusion, the Linear Regression model performs the best. We tuned hyperparameters of learning rate, optimizer weight decay, and also add more layers to CNN model and changed the kernel size. However, those changes didn't significantly improve the performance. We came up with two possible reasons: The first reason is that the dataset is too small. The second reason is we only used mean arousal and valence for each audio segment. We could probably try frame-level inputs which contains more information.
 
-## Timeline
-
-<https://docs.google.com/spreadsheets/d/1t3r_wXtmoawwp6LNXEL4DRNVnt1sJNx-Nu9NjE3ipSY/edit#gid=1115838130>
-
-## Contribution of each member
-
-| Jiarui Xu | Juntao He | Shimiao Liu | Xuedan Gao | Yifeng Yu |
-| :-------------: | :-------------: | :-------------: | :-------------: | ------------- |
-| Set up Git repo, implement and modify linear regression model and evaluations, modify utils.py | Implement GMM | Implement KNN and plot the results| Implement kmeans and plot the results| Implement random forest, CNN, utility functions such as plot and evaluation.
-
 
 ## presentation
 https://www.dropbox.com/s/d1k6y17605dn3tk/final_v1.mp4?dl=0
