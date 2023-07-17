@@ -2,7 +2,6 @@
 
 Project for CS7641 Machine learning
 
-### Midterm Report
 
 <div style="text-align:center;">
   <img src="pic.jpeg" width="600"/>
